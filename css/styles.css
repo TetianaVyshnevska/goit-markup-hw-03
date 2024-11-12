@@ -200,28 +200,21 @@ box-sizing: border-box;
     gap: 24px;
     list-style: none;
     padding: 0;
-    margin: 0;
-   
+    margin: 0; 
 }
-.team-member {
-    width: calc((100% - 80px) / 3);;
+.team-list .our-team-member {
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-text-align: center;
+    text-align: center;
 }
-.team-member img {
+.team .our-team-member img {
     width: 100%;
-    height: auto;
     margin-bottom: 32px;
 }
-.portfolio-member {
-    border: 1px solid #e7e9fc;
-    overflow: hidden;
-}
-.portfolio-member img {
-    display: block;
-}
-.team .team-name {
+
+.team .our-team-name {
+    text-align: center;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -230,7 +223,8 @@ text-align: center;
         text-transform: capitalize;
         margin-bottom: 8px;
 }
-.team .team-text {
+.team .our-team-text {
+    text-align: center;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -238,12 +232,19 @@ text-align: center;
         color: #434455;
         margin:8px 0 32px 0;
 }
-
 .portfolio {
 background-color: #FFFFFF;
 padding: 120px 0;
 }
-.portfolio .team-name {
+.portfolio-member {
+    border: 1px solid #e7e9fc;
+    overflow: hidden;
+    width: calc((100% - 80px) / 3);
+}
+.portfolio-member img {
+    display: block;
+}
+.team-name .portfolio-name {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -259,26 +260,26 @@ padding: 120px 0;
     margin-left: 16px;
     text-align: left;
 }
-.footer-container {
-    margin: 0 auto;
-    display: flex;
-    align-items:start
-    gap: 9px;
-}
+
 .page-footer {
-    display:
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px 0;
 }
 .footer-logo {
+    display: inline-block;
+    text-decoration: none;
+    text transform: uppercase;
+    display: inline-block;
     margin-top: 100px;
-    margin-bottom: 9px;
+    margin-bottom: 16px;
+    
 }
-.page-footer .footer-text {
+ .footer-text {
     font-weight: 400;
-    max-width: 295px;
+    max-width: 264px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        margin-bottom: 16px;
-        margin: 100px 0;
 }
