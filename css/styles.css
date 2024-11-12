@@ -116,11 +116,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-        text-align: center;
-        justify-content: center;
-        padding-top: 188px;
-        padding-bottom: 188px;
-        margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
 }
 
 .hero .hero-text {
@@ -169,8 +169,7 @@ display: none;
     justify-content: center;
     gap: 24px;
     list-style: none;
-    width: calc((100% - 72px) / 4);
-    padding: 0 auto;
+    flex-basis: calc((100% - 72px) / 4);
     margin: 0 auto;
 }
 .benefits-items {
@@ -198,13 +197,13 @@ width: calc((100% - 72px) / 4);
 .team .team-list li {
     background-color: #FFFFFF;
 }
-.team-title .visually-hidden {
+  .team-title .visually-hidden {
     position: absolute;
     overflow: hidden;
     white-space: nowrap;
     border: 0;
     line-height: 1.11;
-    margin-bottom: 72px;
+    margin-bottom:72px;
 }
 .team-list {
     display: flex;
