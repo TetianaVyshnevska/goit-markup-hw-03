@@ -160,7 +160,6 @@ main {
     padding: 120px 0;
 }
 .benefits-title {
-visually:hidden;
 display: none;
 }
 .benefits-list {
@@ -172,8 +171,7 @@ display: none;
     flex-basis: calc((100% - 72px) / 4);
     margin: 0 auto;
 }
-.benefits-items {
-box-sizing: border-box;
+.benefits-items {пше іефегі
 width: calc((100% - 72px) / 4);
 
    }
