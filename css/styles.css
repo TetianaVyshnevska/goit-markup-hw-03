@@ -198,7 +198,11 @@ width: calc((100% - 72px) / 4);
 .team .team-list li {
     background-color: #FFFFFF;
 }
-.team .team-title {
+.team-title .visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
     line-height: 1.11;
     margin-bottom: 72px;
 }
@@ -220,9 +224,10 @@ width: calc((100% - 72px) / 4);
 .team .our-team-member img {
     display: block;
     width: 100%;
-    margin-bottom: 32px;
 }
-
+.team .team-info {
+    padding: 32px 0;
+}
 .team .our-team-name {
     text-align: center;
     font-weight: 500;
@@ -255,13 +260,20 @@ padding: 120px 0;
     column-gap: 24px;
     row-gap: 48px;
 }
+.portfolio-info {
+    padding: 36px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .portfolio-member {
     border: 1px solid #e7e9fc;
     overflow: hidden;
     width: calc((100% - 80px) / 3);
+    margin: 0 auto;
 }
 .portfolio-member img {
     display: block;
+    width: 100%;
 }
 .portfolio-name {
     font-weight: 700;
@@ -276,7 +288,7 @@ padding: 120px 0;
 .portfolio .team-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 16px;
+    margin-bottom: 0;
     text-align: left;
 }
 
